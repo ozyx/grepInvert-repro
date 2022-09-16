@@ -1,0 +1,17 @@
+{
+  "name": "grep-invert-override",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx playwright test --grep-invert='@annotation1'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.25.2",
+    "express": "4.18.1"
+  }
+}
